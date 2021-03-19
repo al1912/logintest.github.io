@@ -1,0 +1,129 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 255, 13, 0.89), rgb(64, 32, 248))
+
+}
+
+header{
+
+    width: 300px;
+    height: 10vh;
+    position: relative;
+    border: 2px solid black;
+    z-index: 1000;
+    border-bottom-style:hidden ;
+    background-color: transparent;
+
+}
+
+.content {
+
+    position: relative;
+    width: 300px;
+    height: 72vh;
+    background-color: transparent;
+    padding: 0 20px 0 20px;
+    border: 2px solid black;
+    border-top-style: hidden;
+    overflow: hidden;
+
+}
+
+.content #login,
+.content #cAcc{
+
+    min-height: 72vh;
+
+}
+
+.content h1{
+
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 27px;
+
+}
+
+.content input{
+
+    width: 250px;
+    padding: 8px 0;
+    margin-top: 10px;
+    border:none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+
+}
+
+.content input::placeholder{
+
+    color: black;
+
+}
+
+.content #check{
+
+    width: 20px;
+    margin-top: 20px;
+
+}
+
+.content button{
+
+    position: relative;
+    margin-top: 30px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.content button:active{
+
+    top: 5px;
+
+}
+
+.content h4{
+
+    text-align: center;
+    
+}
+
+.content h4 a{
+
+    color: black;
+
+}
+
+.content #forgot{
+
+    margin:50px 0 20px 0;
+
+}
+
+.content #back{
+
+    margin: 50px 0 0 0;
+
+}
